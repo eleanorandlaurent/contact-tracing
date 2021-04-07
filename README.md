@@ -1,2 +1,2 @@
-# contact-tracing
-Script that redirects customers from Eleanor&amp;Laurent's contact tracing form to their website.
+# Eleanor And Laurent Contact Tracing
+Script that redirects customers from Eleanor And Laurent's contact tracing form to their website.

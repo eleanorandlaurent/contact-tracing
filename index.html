@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleanor&Laurent Contact Tracing Form</title>
+</head>
+<body>
+    
+    <p style="text-align:center"><iframe id="gform" src="https://docs.google.com/forms/d/e/1FAIpQLSf2dDR88dKBJTOQgsozsXOTiH7SrpCGenqKtrjp7psZ4II10g/viewform?embedded=true" width="100%" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+    <script type="text/javascript">
+    var load = 0;
+    
+    document.getElementById('gform').onload = function(){
+        /*Execute on every reload on iFrame*/
+        load++;
+        if(load > 1){
+            /*Second reload is a submit*/
+            document.location = "https://eleanorandlaurent.com/";
+        }
+    }
+    </script>
+
+</body>
+</html>
